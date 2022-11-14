@@ -1,6 +1,6 @@
 Title =  "路亞廣場 LuYa Square"
 LanguageCode = "zh-TW"
-BaseUrl = "http://luyasquare.github.io/"
+BaseUrl = "http://luyas.github.io/"
 Theme =  "next"
 MetaDataFormat =  "yaml"
 CanonifyUrls =  true
