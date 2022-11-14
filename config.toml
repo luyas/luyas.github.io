@@ -1,0 +1,82 @@
+Title =  "路亞廣場 LuYa Square"
+LanguageCode = "zh-TW"
+BaseUrl = "http://luyasquare.github.io/"
+Theme =  "next"
+MetaDataFormat =  "yaml"
+CanonifyUrls =  true
+BuildDrafts =  false
+PaginatePath =  "p"
+Paginate = 8
+DisablePathToLower =  false
+HasCJKLanguage = true
+PreserveTaxonomyNames = false
+UglyUrls = false
+PygmentsStyle = "monokai"
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+DefaultContentLanguage = "zh"
+googleAnalytics = "G-34EKXD8HY8"
+
+[Params]
+  Introduce = "LuYa & Square"
+  Description = "旅遊 | 手札"
+  Keywords =  "遊記"
+  Subtitle = "一起走, 別單機~"
+  Imglogo = "/img/logo.png"
+  AuthorImg = "/img/author.jpg"
+  DateFormat = "2006-01-02"
+  YearFormat = "2006年"
+  MonthFormat = "01-02"
+  RevolverMapId = "5wv45chsv1x"
+  Fancybox = true
+
+[Author]
+  Name = "LuYa & Square"
+
+[Params.Share]
+  Baidu = false
+
+[Params.utterances]  # https://utteranc.es/
+  owner = ""         # Your GitHub ID
+  repo = ""          # The repo to store comments
+
+[[Menu.Main]]
+  Name = "家"
+  Pre = "home"
+  URL = "/"
+  Weight = 1
+[[Menu.Main]]
+  Name = "親子"
+  Pre = "child"
+  URL = "/categories/親子/"
+  Weight = 2
+[[Menu.Main]]
+  Name = "兩人"
+  Pre = "heart"
+  URL = "/categories/兩人/"
+  Weight = 3
+[[Menu.Main]]
+  Name = "筆記"
+  Pre = "book"
+  URL = "/categories/筆記/"
+  Weight = 4
+[[Menu.Main]]
+  Name = "總匯"
+  Pre = "archive"
+  URL = "/post/"
+  Weight = 5
+[[Menu.Main]]
+  Name = "關於"
+  Pre = "user"
+  URL = "/about/"
+  Weight = 6
+
+[[Params.Socials]]
+  Name = "Email"
+  Icon = "envelope"
+  URL = "mailto:b98507006@gmail.com"
+
+[[Params.Socials]]
+  Name = "GitHub"
+  Icon = "github"
+  URL = "https://github.com/luyasquare"  

@@ -1,0 +1,46 @@
+<div class="copyright">
+  <span itemprop="copyrightYear"> &copy;
+    2018 - {{ now.Year }}</span>
+  <span class="with-love"><i class="fa fa-heart"></i></span>
+  <span class="author" itemprop="copyrightHolder">{{ .Site.Title }}</span>
+</div>
+<div class="powered-by">
+  Powered by - <a class="theme-link" href="https://gohugo.io" target="_blank" title="hugo">Hugo v{{ hugo.Version }}</a>
+</div>
+<div class="theme-info">
+  Theme by - <a class="theme-link" href="https://github.com/xtfly/hugo-theme-next" target="_blank"> NexT
+  </a>
+</div>
+
+
+<script>
+  const loadScript = (url, onloadFunction) => {
+    var newScript = document.createElement("script");
+    newScript.onerror = (oError) => {
+      throw new URIError("The script " + oError.target.src + " didn't load correctly.");
+    };
+    if (onloadFunction) { newScript.onload = onloadFunction; }
+    document.head.insertAdjacentElement('beforeend', newScript);
+    newScript.src = url;
+  }
+
+  // mermaid loader by ttys3.dev
+  const loadMermaidOnNeed = () => {
+    if (document.querySelectorAll('.mermaid').length > 0) {
+      loadScript('https://cdn.jsdelivr.net/npm/mermaid@8.10.1/dist/mermaid.min.js', () => {
+        document.head.insertAdjacentHTML("beforeend", `<style>.mermaid svg { background-color: #dadcd8 !important; }</style>`);
+        // default, dark, neutral, forest
+        mermaid.initialize({ startOnLoad: false, securityLevel: "strict", logLevel: 1, theme: "forest" });
+        // https://github.com/mermaid-js/mermaid/blob/e6e94ad57ea06ef8627bf91ddfbd88f5082952bf/src/mermaid.js#L153
+        // mermaid.contentLoaded();
+        mermaid.init();
+        console.log("mermaid init done");
+      })
+    }
+  }
+
+  window.addEventListener('load', function (event) {
+    // load mermaid
+    loadMermaidOnNeed();
+  });
+</script>

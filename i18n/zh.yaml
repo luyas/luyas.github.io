@@ -1,0 +1,34 @@
+- id: StatsCats
+  translation: 目前共計 {{ len .Data.Terms }} 個分類
+- id: StatsTags
+  translation: 目前共計 {{ len .Data.Terms }} 個標籤
+- id: StatsBlogs
+  translation: 目前共計 {{ .Count }} 篇日誌。 努力生產中。
+- id: Blog
+  translation: 日誌
+- id: Category
+  translation: 分類
+- id: Archive
+  translation: 總匯
+- id: Tag
+  translation: 標籤
+- id: ToC
+  translation: 文章目錄
+- id: RSS
+  translation: "RSS 訂閱"
+- id: SiteInfo
+  translation: 站點概覽
+- id: Link
+  translation: 有情連結
+- id: Time
+  translation: 時間
+- id: View
+  translation: 閱讀
+- id: ReadMore
+  translation: 閱讀全文
+- id: ReadingTime
+  translation: "{{ .WordCount }} 字 ~{{ .ReadingTime }}分鐘"
+- id: Colon
+  translation: ":"
+- id: Search
+  translation: "搜尋"
