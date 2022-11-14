@@ -11,5 +11,5 @@ toc: true
 
 
 
-![](author.jpg)
+![](../2022-11-11_南投山水園/author777.jpg)
 心得...
