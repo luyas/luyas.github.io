@@ -1,7 +1,7 @@
 ---
-title: HOME
-description: Welcome to this sample project
-images: ["/images/sample.jpg"]
+title: 首頁
+description: 歡迎來到露雅的空間
+images: ["/images/nice.jpg"]
 ---
 
 哈囉!

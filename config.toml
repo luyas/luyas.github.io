@@ -2,7 +2,7 @@ baseURL = "https://luyas.github.io/"
 languageCode = "zh-TW"
 title = "LuYa'a Space"
 theme = "personal-web"
-copyright="© LuYa"
+copyright="© LuYa & Vishnu"
 googleAnalytics = "G-3JBSEQ3MW9"
 enableEmoji=true
 enableRobotsTXT=true
@@ -42,7 +42,7 @@ pygmentsCodeFences=true
 [params.sidebar]
   backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "/images/avatar.jpg" # - default "/images/edna-west.jpg"
+  logo = "/imgs/avatar.jpg" # - default "/images/edna-west.jpg"
 [params.assets]
   favicon = ""
   customCSS = ""
