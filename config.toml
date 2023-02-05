@@ -1,7 +1,7 @@
 baseURL = "https://luyas.github.io/"
 languageCode = "zh-TW"
 title = "LuYa'a Space"
-theme = "personal"
+theme = "personal-web"
 copyright="© LuYa"
 googleAnalytics = "G-3JBSEQ3MW9"
 enableEmoji=true
