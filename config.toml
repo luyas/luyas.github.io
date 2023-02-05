@@ -1,82 +1,100 @@
-Title =  "露雅廣場 LuYa Square"
-LanguageCode = "zh-TW"
-BaseUrl = "https://luyas.github.io/"
-Theme =  "next"
-MetaDataFormat =  "yaml"
-CanonifyUrls =  true
-BuildDrafts =  false
-PaginatePath =  "p"
-Paginate = 8
-DisablePathToLower =  false
-HasCJKLanguage = true
-PreserveTaxonomyNames = false
-UglyUrls = false
-PygmentsStyle = "monokai"
-pygmentsCodefences = true
-pygmentsCodefencesGuessSyntax = true
-DefaultContentLanguage = "zh"
-googleAnalytics = "G-34EKXD8HY8"
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Edna West"
+theme = "personal-web"
+copyright="© Edna West"
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
 
-[Params]
-  Introduce = "LuYa & Square"
-  Description = "旅遊 | 手札"
-  Keywords =  "遊記"
-  Subtitle = "一起走, 別單機~"
-  Imglogo = "/img/logo.png"
-  AuthorImg = "/img/author.jpg"
-  DateFormat = "2006-01-02"
-  YearFormat = "2006年"
-  MonthFormat = "01-02"
-  RevolverMapId = "5wv45chsv1x"
-  Fancybox = true
+[params.intro]
+  main = "Hi, I'm LuYa :wave:"
+  sub = "I'm a Web Developer"
 
-[Author]
-  Name = "LuYa & Square"
+[params.main]
+  latestPublishHeader = "My Latest Project"
 
-[Params.Share]
-  Baidu = false
+[taxonomies]
+  design = "designs"
+  tech = "techs"
 
-[Params.utterances]  # https://utteranc.es/
-  owner = ""         # Your GitHub ID
-  repo = ""          # The repo to store comments
+[blackfriday]
+  hrefTargetBlank = true
 
-[[Menu.Main]]
-  Name = "家"
-  Pre = "home"
-  URL = "/"
-  Weight = 1
-[[Menu.Main]]
-  Name = "親子"
-  Pre = "child"
-  URL = "/categories/親子/"
-  Weight = 2
-[[Menu.Main]]
-  Name = "兩人"
-  Pre = "heart"
-  URL = "/categories/兩人/"
-  Weight = 3
-[[Menu.Main]]
-  Name = "筆記"
-  Pre = "book"
-  URL = "/categories/筆記/"
-  Weight = 4
-[[Menu.Main]]
-  Name = "總匯"
-  Pre = "archive"
-  URL = "/post/"
-  Weight = 5
-[[Menu.Main]]
-  Name = "關於"
-  Pre = "user"
-  URL = "/about/"
-  Weight = 6
+[params]
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
 
-[[Params.Socials]]
-  Name = "Email"
-  Icon = "envelope"
-  URL = "mailto:b98507006@gmail.com"
+[params.notFound]
+  gopher = "/images/gopher.png" # checkout https://gopherize.me/
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
 
-[[Params.Socials]]
-  Name = "GitHub"
-  Icon = "github"
-  URL = "https://github.com/luyas"  
+[params.sections]
+  # Define how your sections will be called
+  # when automatically pulled. For instance in the 404 page
+  post = "article"
+  portfolio = "project"
+
+[params.sidebar]
+  backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
+  logo = "" # - default "/images/edna-west.jpg"
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
+[params.social]
+  github = "https://github.com/luyas"
+
+[params.contact]
+  email = "sammi150227@gmail.com"
+  text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
+
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About section"
+  url = "/about/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  title = "Portfolio"
+  url = "/portfolio/"
+  weight = -110
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Post"
+  title = "Blog section"
+  url = "/post/"
+  weight = -100
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
