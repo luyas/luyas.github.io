@@ -10,7 +10,7 @@ thumbnail: 2022-12-23/imgs/sample.jpg
 testimonial:
   name: LuYa & Vishnu
   role: Architect @Tfamily
-  image: /imgs/we.jpg
+  image: ../imgs/we.jpg
   text: 這就是我們
 ---
 
