@@ -10,8 +10,8 @@ pygmentsUseClasses=true
 pygmentsCodeFences=true
 
 [params.intro]
-  main = "Hi, I'm LuYa :wave:"
-  sub = "I'm a Web Developer"
+  main = "Hi, We're LuYa & Vishnu :wave:"
+  sub = "We're Web Engineers"
 
 [params.main]
   latestPublishHeader = "最近一次的全家出遊"
@@ -44,7 +44,7 @@ pygmentsCodeFences=true
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
   logo = "/imgs/avatar.jpg" # - default "/images/edna-west.jpg"
 [params.assets]
-  favicon = ""
+  favicon = "/imgs/love.ico"
   customCSS = ""
 
 [params.social]
