@@ -4,10 +4,9 @@ description: Welcome to this sample project
 images: ["/images/sample.jpg"]
 ---
 
-Hey,
+哈囉!
 
-I'm Edna West, a Web Developer and Entrepreneur.
+我是LuYa，是雙寶媽，喜歡帶孩子到處旅遊住宿，走親子步道，吃美食，打卡踩點，看大自然風景，享受人生中的寧靜美好。
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus error cumque quisquam necessitatibus libero dolore porro, quo at molestiae modi voluptatibus iusto alias corporis. Accusamus, debitis, atque. Maiores, distinctio, neque.
 
 [Get to know me better](/about "Get to know me better")

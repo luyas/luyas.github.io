@@ -1,10 +1,9 @@
 ---
 title: ABOUT
-description: Hey, I'm Edna West
+description: Hey, I'm LuYa
 images: ["/images/sample.jpg"]
 ---
 
+關於我 :wave:
 
-This is my about page. :wave:
-
-Lorem ipsum dolor sit amet, :smile: consectetur adipisicing elit. Voluptates aut, tenetur distinctio voluptatibus ab. Nihil id dignissimos unde, tenetur iusto facilis suscipit corporis, ipsam necessitatibus, eaque iste deleniti consequuntur reprehenderit? :earth_africa:
+有空再寫...
