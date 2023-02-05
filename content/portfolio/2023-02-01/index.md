@@ -6,7 +6,7 @@ jobDate: 2023
 work: [oneday, scooter]
 techs: [Love, Peace]
 designs: [Pixel 4]
-thumbnail: 2022-02-01/imgs/sample.jpg
+thumbnail: 2023-02-01/imgs/sample.jpg
 testimonial:
   name: LuYa & Vishnu
   role: Architect @Tfamily
