@@ -58,22 +58,22 @@ pygmentsCodeFences=true
 [menu]
 
 [[menu.main]]
-  identifier = "about"
-  name = "About"
+  identifier = "關於"
+  name = "關於"
   title = "About section"
   url = "/about/"
   weight = -120
 
 [[menu.main]]
   identifier = "portfolio"
-  name = "Portfolio"
+  name = "旅遊專案列表"
   title = "Portfolio"
   url = "/portfolio/"
   weight = -110
 
 [[menu.main]]
   identifier = "blog"
-  name = "Post"
+  name = "文章列表"
   title = "Blog section"
   url = "/post/"
   weight = -100
