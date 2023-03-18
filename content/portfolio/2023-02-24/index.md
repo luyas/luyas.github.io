@@ -2,7 +2,7 @@
 title: 白宮行館
 description: 海邊沙灘好好玩
 date: "2023-02-24T19:47:09+02:00"
-jobDate: 2023
+jobDate: 2023-02-24
 work: [兩天一夜, 開自家車our car]
 techs: [Love, Peace]
 designs: [Pixel 4]

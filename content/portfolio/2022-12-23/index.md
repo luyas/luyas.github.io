@@ -2,7 +2,7 @@
 title: 新北耶誕城
 description: 去人擠人去拍照
 date: "2022-12-23T19:47:09+02:00"
-jobDate: 2022
+jobDate: 2022-12-23
 work: [oneday, public transportation]
 techs: [Love, Peace]
 designs: [Pixel 4]
