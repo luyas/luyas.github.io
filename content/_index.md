@@ -1,12 +1,12 @@
 ---
-title: 首頁
+title: LuYa's Space
 description: 歡迎來到露雅的空間
 images: ["/images/nice.jpg"]
 ---
 
-哈囉!
+> Hello World!   , We're TFamily.  
 
-我是LuYa，是雙寶媽，喜歡帶孩子到處旅遊住宿，走親子步道，吃美食，打卡踩點，看大自然風景，享受人生中的寧靜美好。
+[關於LuYa](/about  "請點擊後有更多資訊!!!")  
+[家庭旅遊](/portfolio  "請點擊後有更多資訊!!!")  
+[編織小物](/fabric  "請點擊後有更多資訊!!!")  
 
-
-[Get to know me better](/about "Get to know me better")

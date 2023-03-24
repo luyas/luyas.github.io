@@ -10,8 +10,8 @@ pygmentsUseClasses=true
 pygmentsCodeFences=true
 
 [params.intro]
-  main = "Hi, We're LuYa & Vishnu :wave:"
-  sub = "We're Web Engineers"
+  main = "Hi, We're TFamily :family:"
+  sub = "我們這一家!"
 
 [params.main]
   latestPublishHeader = "最近一次的全家出遊"
@@ -59,13 +59,19 @@ pygmentsCodeFences=true
 [menu]
 
 [[menu.main]]
-  identifier = "關於"
-  name = "關於"
+  identifier = "關於LuYa"
+  name = "關於LuYa"
   title = "About section"
   url = "/about/"
   weight = -120
 
-
+[[menu.main]]
+  identifier = "關於Vishnu"
+  name = "關於Vishnu"
+  title = "Vishnu"
+  url = "https://vishnucho.github.io/"
+  weight = -115
+  
 [[menu.main]]
   identifier = "portfolio"
   name = "旅遊專案列表"
@@ -74,11 +80,12 @@ pygmentsCodeFences=true
   weight = -110
 
 [[menu.main]]
-  identifier = "knitting"
+  identifier = "fabric"
   name = "編織小物列表"
-  title = "Knitting"
-  url = "/knitting/"
+  title = "Fabric"
+  url = "/fabric/"
   weight = -100
+
 
 
 [sitemap]

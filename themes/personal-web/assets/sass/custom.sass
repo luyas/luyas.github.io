@@ -173,6 +173,144 @@ header
             left: 0
 
 
+
+.fabric
+  img
+    max-width: 100%
+    margin-bottom: $margin-blocks
+    box-shadow: $box-shadow
+
+  .rounded-img
+    +rounded
+
+  .testimonial-list
+    margin: 0 auto
+    display: flex
+
+    .testimonial-container
+      display: inline-block
+      text-align: center
+
+      .testimonial-name, .testimonial-role
+        text-align: center
+        font-weight: $font-weight_h1
+        font-size: $font-size_main_large
+        margin-top: -2/3*$margin-blocks
+      .testimonial-role
+        font-weight: $font-weight_main
+
+      .testimonial-text
+        position: relative
+        z-index: 0
+
+
+  .fabric-tags
+    margin-top: $margin-blocks/5
+    span
+      font-weight: $font-weight_h1
+    a
+      overflow-wrap: break-word
+  .tags
+    margin-bottom: $margin-blocks/3
+
+#content
+  .fabric-list
+    h2
+      margin: 0
+
+    a, a:hover, a:link, a:active, a:visited, a:focus
+      border-bottom: none
+      color: inherit
+
+    img
+      max-width: 100%
+      border-radius: 2px
+      display: block
+      box-shadow: $box-shadow
+      margin: inherit
+
+    .fabric-container
+      position: relative
+      max-width: $max-width-content
+      margin-bottom: $margin-blocks
+
+      .fabric-details
+        opacity: 0
+        display: none
+        width: 100%
+        padding: 2em 1em
+        color: $primary-color
+        +transition(opacity 0.4s ease)
+
+        p, h2
+          text-align: center
+          margin-bottom: 0
+          position: relative
+
+
+      .img-overlay
+        position: absolute
+        top: 0
+        bottom: 0
+        left: 0
+        right: 0
+        height: 100%
+        width: 100%
+        opacity: 0
+        +transition(0.4s ease)
+        background-color: $dark-blue
+
+      &:hover
+        .img-overlay
+          opacity: 0.7
+
+        .fabric-details
+          opacity: 1
+          display: block
+          position: absolute
+          top: 50%
+          left: 50%
+          +transform(translate(-50%, -50%))
+
+    img::hover
+      linear-gradient: $dark-blue, $dark-blue
+
+    .fabric-container
+      +smartphone
+        img
+          margin-bottom: 0
+
+        .img-overlay
+          display: none
+
+        .fabric-details
+          display: block
+          opacity: 1
+          width: 100%
+          padding: 0px
+          color: $grey-900
+
+          h2
+            font-size: $font-size_h3
+            line-height: $line-height_main
+
+            span
+              background-image: linear-gradient(180deg, transparent 60%, $primary-color 0)
+              padding: 0 0.2em
+
+          p, h2
+            text-align: center
+            margin-bottom: 0
+            position: relative
+
+        &:hover
+          .fabric-details
+            +transform(none)
+            position: relative
+            left: 0
+
+
+
 .designs, .techs
   display: inline-block
 
