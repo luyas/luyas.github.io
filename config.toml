@@ -38,6 +38,7 @@ pygmentsCodeFences=true
   # when automatically pulled. For instance in the 404 page
   post = "article"
   portfolio = "project"
+  knitting = "knitting"
 
 [params.sidebar]
   backgroundImage = '/imgs/leftcover.png' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
@@ -64,6 +65,7 @@ pygmentsCodeFences=true
   url = "/about/"
   weight = -120
 
+
 [[menu.main]]
   identifier = "portfolio"
   name = "旅遊專案列表"
@@ -72,11 +74,12 @@ pygmentsCodeFences=true
   weight = -110
 
 [[menu.main]]
-  identifier = "blog"
-  name = "文章列表"
-  title = "Blog section"
-  url = "/post/"
+  identifier = "knitting"
+  name = "編織小物列表"
+  title = "Knitting"
+  url = "/knitting/"
   weight = -100
+
 
 [sitemap]
   changefreq = "monthly"

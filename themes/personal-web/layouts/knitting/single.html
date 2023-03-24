@@ -1,0 +1,10 @@
+{{ partial "header" .}}
+
+<h1>{{ .Title }}</h1>
+
+<img title="{{.Title}}" alt="{{.Title}}" src="/knitting/{{ .Params.Thumbnail }}" />
+
+{{ .Content }}
+
+
+{{ partial "footer" .}}
